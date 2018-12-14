@@ -388,9 +388,10 @@ select {
 .tr-dropdown-menu li a {
 	display: block;
 	padding: 1px 5px;
+	color:  #c1964d;
 }
 
-.dropdown-menu>li>a:hover {
+.tr-dropdown-menu li a:hover {
 	color: #fff;
 	background-color: #c1964d;
 }
@@ -439,6 +440,10 @@ select {
 	min-width: 70px;
 	padding: 0 5px;
 	color: #fff;
+}
+
+.currency option {
+	background-color: #c1964d;
 }
 
 /* Modal */
