@@ -247,12 +247,9 @@ select.form-control:not([size]):not([multiple]) {
 	margin-right: -65px;
 }
 
-.product:hover .product-icon .icon.icon-basket {
-	left: 50%;
-}
 
 .product:hover .product-icon .icon.icon-size {
-	right: 50%;
+	right: 65%;
 }
 
 /* tr-breadcrumb */
@@ -459,10 +456,10 @@ select {
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
-.product-category .tr-list li a:hover{
+.product-categories .tr-list li a:hover{
     color: #c1964d
 }
-.product-category .tr-list li a {
+.product-categories .tr-list li a {
     color: #a4a4a4
 }
 
@@ -556,6 +553,58 @@ select {
 .overview .quantity {
     margin-right: 20px
 }
+
+.product-details .offers{
+    width: 65%;
+}
+
+.product-details .bid{
+    height: 100px;
+    padding: 10px;
+}
+
+
+.offers{
+	margin-top: 20px;
+
+}
+
+.offers img{
+	width: 80px;
+    height: 80px;
+    padding: 5px;
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    position: relative;
+}
+
+.offers a{
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+.bid{
+	border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+	margin: 10px;
+}
+
+	
+.bid-text{
+	float: right;
+    padding: 10px;
+}
+
+.bid-text span{
+	font-weight: 600;
+    color: #c1964d;
+    float: right;
+    font-size: 20px;
+}
+
 
 @media (max-width: 991px) {
     .overview {
@@ -2730,6 +2779,18 @@ input[type="radio"],
 	font-size: 16px;
 	max-width: 500px;
 	display: inline-block;
+}
+
+.terms-content {
+	padding: 100px 30px;
+	font-size: 16px;
+	max-width: 100%;
+	display: inline-block;
+}
+
+.terms-content p {
+	color: #363636;
+	margin-top: 100px;
 }
 
 /* tr-account */
