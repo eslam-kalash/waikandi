@@ -24,6 +24,7 @@ jQuery(function ($) {
             autoplay:true,
             autoplaySpeed:10000,
             slidesToScroll: 1,
+            rtl: true,
             responsive: [
             {
               breakpoint: 1200,
@@ -58,6 +59,7 @@ jQuery(function ($) {
             slidesToShow: 1,
             autoplay:true,
             autoplaySpeed:10000,
+            rtl: true,
             slidesToScroll: 1      
         }); 
 
@@ -67,6 +69,7 @@ jQuery(function ($) {
             slidesToShow: 1,
             autoplay:false,
             autoplaySpeed:10000,
+            rtl: true,
             slidesToScroll: 1      
         }); 
 
@@ -76,6 +79,7 @@ jQuery(function ($) {
             slidesToShow: 4,
             autoplay:true,
             autoplaySpeed:10000,
+            rtl: true,
             slidesToScroll: 1,
             responsive: [
             {
@@ -109,6 +113,7 @@ jQuery(function ($) {
             dots: true,
             slidesToShow: 1,
             autoplay:true,
+            rtl: true,
             autoplaySpeed:10000,
             slidesToScroll: 1      
         });                                 

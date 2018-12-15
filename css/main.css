@@ -605,6 +605,22 @@ select {
     font-size: 20px;
 }
 
+.profile{
+	text-align: center;
+	margin: 10px 0;
+}
+
+.profile-image{
+	max-width: 100%;
+	margin-bottom: 5px;
+	height: 80px;
+}
+
+.profile-user{
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 22px;
+}
 
 @media (max-width: 991px) {
     .overview {
